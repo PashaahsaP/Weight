@@ -1,0 +1,26 @@
+C:\Users\psair\source\repos\weight 2\bin\Debug\weight 2.exe.config
+C:\Users\psair\source\repos\weight 2\bin\Debug\weight 2.exe
+C:\Users\psair\source\repos\weight 2\bin\Debug\weight 2.pdb
+C:\Users\psair\source\repos\weight 2\bin\Debug\LiveCharts.dll
+C:\Users\psair\source\repos\weight 2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\psair\source\repos\weight 2\bin\Debug\LiveCharts.pdb
+C:\Users\psair\source\repos\weight 2\bin\Debug\LiveCharts.xml
+C:\Users\psair\source\repos\weight 2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\psair\source\repos\weight 2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\psair\source\repos\weight 2\obj\Debug\Styles\Buttons.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\Styles\Colors.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\Styles\DatePicker.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\Styles\Fonts.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\Styles\Texts.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\MainWindow.g.cs
+C:\Users\psair\source\repos\weight 2\obj\Debug\App.g.cs
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2_MarkupCompile.cache
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2_MarkupCompile.lref
+C:\Users\psair\source\repos\weight 2\obj\Debug\App.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\MainWindow.baml
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.g.resources
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight_2.Properties.Resources.resources
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.GenerateResource.cache
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.CoreCompileInputs.cache
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.exe
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.pdb
