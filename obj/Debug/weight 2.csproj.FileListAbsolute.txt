@@ -24,3 +24,7 @@ C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.GenerateResource.
 C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.CoreCompileInputs.cache
 C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.exe
 C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.pdb
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.AssemblyReference.cache
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\psair\source\repos\weight 2\obj\Debug\weight 2.csproj.CopyComplete
+C:\Users\psair\source\repos\weight 2\obj\Debug\Styles\GroupBox.baml

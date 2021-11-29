@@ -9,8 +9,6 @@
         x:Name="mainWindow"
         Title="MainWindow" Height="600" Width="1000">
 
-
-
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
@@ -41,8 +39,8 @@
                 <DatePicker Width="{Binding ActualWidth, ElementName=ButtonStack}"
                         Margin="5"
                         Style="{StaticResource test}"
-                        
-                        HorizontalAlignment="Right"  
+                        HorizontalAlignment="Right" 
+                         
                         
                         />
                 <TextBox HorizontalAlignment="Right"
@@ -52,14 +50,23 @@
                      Width="{Binding ActualWidth, ElementName=ButtonStack}" 
                      Tag="Evening weight" Margin="5" Padding="3"/>
                 <StackPanel x:Name="ButtonStack" Orientation="Horizontal" HorizontalAlignment="Right">
-                    <Button Content="Reset" Width="70" Margin="5" Padding="3"/>
-                    <Button  Content="Apply" Width="70" Margin="5" Padding="3"/>
+                    <Image  HorizontalAlignment="Left" Source="Images/filedialog.png" 
+                            Width="40" Height="40"
+                            MouseDown="Image_MouseDown"
+                            />
+                    <Button Content="Reset" Width="50" Margin="5" Padding="3"/>
+                    <Button  Content="Apply" Width="50" Margin="5" Padding="3"/>
                 </StackPanel>
-                <GroupBox Header="Txt. files" 
-                          Background="{StaticResource BackgroundLightBrush}"  
+                <GroupBox Header="txt. files" 
                           Margin="10 10 0 0"
+                          AllowDrop="True"
+                          DragEnter="GroupBox_DragEnter"
+                          Drop="GroupBox_Drop"
+                          
+                          Background="Transparent"
+                      
                        Width="{Binding Width, ElementName=MenuStack}"
-                       Height="{Binding Width, RelativeSource={RelativeSource Mode=Self}}" 
+                       Height="{Binding ActualWidth, RelativeSource={RelativeSource Mode=Self}}" 
                       />
 
             </StackPanel>

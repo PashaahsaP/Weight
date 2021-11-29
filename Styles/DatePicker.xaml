@@ -7,8 +7,9 @@
             <Setter Property="IsTodayHighlighted" Value="True"/>
             <Setter Property="SelectedDateFormat" Value="Short"/>
             <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="Padding" Value="2"/>
-            <Setter Property="BorderBrush">
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Padding" Value="2"/>
+        <Setter Property="BorderBrush">
                 <Setter.Value>
                     <LinearGradientBrush EndPoint=".5,0" StartPoint=".5,1">
                         <GradientStop Color="#FFA3AEB9" Offset="0"/>
@@ -22,6 +23,7 @@
             <Setter Property="HorizontalContentAlignment" Value="Right"/>
             <Setter Property="Template">
                 <Setter.Value>
+                    
                     <ControlTemplate TargetType="{x:Type DatePicker}">
                         <Border BorderBrush="{TemplateBinding BorderBrush}"
                                 BorderThickness="{TemplateBinding BorderThickness}"
@@ -143,7 +145,11 @@
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
                                 <Button x:Name="PART_Button" Grid.Column="1" Foreground="{TemplateBinding Foreground}" Focusable="False" HorizontalAlignment="Left" Margin="3,0,3,0" Grid.Row="0" Template="{StaticResource DropDownButtonTemplate}" VerticalAlignment="Top" Width="20"/>
-                                <DatePickerTextBox x:Name="PART_TextBox" Grid.Column="0" Focusable="{TemplateBinding Focusable}" HorizontalContentAlignment="Stretch" Grid.Row="0" VerticalContentAlignment="Stretch"/>
+                                <DatePickerTextBox x:Name="PART_TextBox" Grid.Column="0"  
+                                                   Focusable="{TemplateBinding Focusable}"
+                                                   HorizontalContentAlignment="Center" Grid.Row="0" 
+                                                   Text="{Binding Path=SelectedDate, StringFormat='dd.MM          ',   RelativeSource={RelativeSource AncestorType={x:Type DatePicker}}}"
+                                                   VerticalContentAlignment="Stretch"/>
                                 <Grid x:Name="PART_DisabledVisual" Grid.ColumnSpan="2" Grid.Column="0" IsHitTestVisible="False" Opacity="0" Grid.Row="0">
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*"/>
@@ -165,6 +171,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
- 
+      
 
 </ResourceDictionary>
